@@ -1,0 +1,39 @@
+.asideContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: hsla(204, 67%, 51%, 0.842);
+    height: 100vh;
+    align-items: center;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.profileLogout {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+.stockIcon {
+    margin-left: 26px;
+    margin-bottom: 10px;
+}
+
+.logoutIcon {
+    margin-left: 50px;
+    height: 40px;
+    margin-top: 40px;
+}
+
+.logoLight {
+    margin-left: 18px;
+}
