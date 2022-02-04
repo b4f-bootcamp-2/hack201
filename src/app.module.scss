@@ -1,0 +1,43 @@
+.aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 150px;
+    position: fixed;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 150px;
+    width: calc(100vw - 150px);
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.notification {
+    position: fixed;
+    left : 50%;
+    bottom: 0;
+    /*font-family: "Press Start 2P" , cursive;*/
+    color: #FFFFFF;
+    font-size: 24px;
+    padding: 0 16px;
+    line-height: 32px;
+    border-radius: 7%;
+    border: 2px solid #FFFFFF;
+    background-color: hsla(204, 67%, 51%, 0.842);
+  
+    transform: translate(-50%, 100%);
+    transition: transform 300ms ease;
+  }
+  
+  .notification.visible {
+    transform: translate(-50%, 0);
+  }
